@@ -109,7 +109,32 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section id="contact">
+						<section>
+							<form method="post" name="contactform" action="https://formspree.io/davidnguyen4898@gmail.com">
+								<div class="fields" id="contact">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" placeholder="Enter your name..."/>
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" placeholder="Enter your email..."/>
+									</div>
+									<div class="field">
+										<label for="subject">Subject</label>
+										<input type="text" name="subject" id="subject" placeholder="Enter your subject..."/>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3" placeholder="Enter your message..."></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" name="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split-contact">
 							<section>
 								<h3>Email</h3>
 								<p><a href="mailto:davidnguyen4898@gmail.com">davidnguyen4898@gmail.com</a></p>
