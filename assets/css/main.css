@@ -3714,6 +3714,7 @@ input, select, textarea {
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
+					scroll-behavior: smooth;
 				}
 
 					#nav ul.links li a:hover {
@@ -3922,6 +3923,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > article .image {
+
 					max-width: 25rem;
 					margin-left: auto;
 					margin-right: auto;
